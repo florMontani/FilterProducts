@@ -1,0 +1,79 @@
+
+                <!DOCTYPE html>
+                <html>
+                  <head>
+                    <meta charset="UTF-8">
+                    <title>Filtrar Productos</title>
+                    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+                    <link rel="stylesheet" href="style.css">
+                  </head>
+                  <body>
+                    <div class="container mt-5">
+                      <h1 class="text-center mb-4">Filtrar Productos</h1>
+                      <div class="row">
+                        <div class="col-md-4 mb-4">
+                          <select id="nombre" class="form-control">
+                            <!-- <option value="">nombre</option> -->
+                            <!-- <option value="ropa">Ropa</option> -->
+                            <option value="">-- Todas --</option>
+                            <option value="Sudadera">Sudadera</option>
+                            <option value="Camisa">Camisa</option>
+                            <option value="Pantalón">Pantalón</option>
+                            <option value="Chaqueta">Chaqueta</option>
+                          </select>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                          <select id="marca" class="form-control">
+                            <option value="">Marca</option>
+                            <option value="adidas">Adidas</option>
+                            <option value="nike">Nike</option>
+                            <option value="puma">Puma</option>
+                          </select>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                          <select id="talla" class="form-control">
+                            <option value="">Talla</option>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                          </select>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                          <select id="color" class="form-control">
+                            <option value="">Color</option>
+                            <option value="azul">Azul</option>
+                            <option value="negro">Negro</option>
+                            <option value="blanco">Blanco</option>
+                            <option value="rojo">Rojo</option>
+                            <option value="gris">Gris</option>
+                            <option value="verde">Verde</option>
+                            <option value="rojo">Rojo</option>
+                          </select>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                          <select id="precio" class="form-control">
+                            <option value="">Precio</option>
+                            <option value="bajo">Bajo</option>
+                            <option value="medio">Medio</option>
+                            <option value="alto">Alto</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="row mt-4">
+                        <div class="col-md-12">
+                          <table id="tabla-productos" class="table table-striped">
+                            <thead id="contendor">
+                              
+                                
+                            </thead>
+                            <tbody>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                    <script src="productos.js"></script>
+                    <script src="script.js"></script>
+                  </body>
+                </html>
+                        
